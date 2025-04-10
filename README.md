@@ -1,115 +1,42 @@
-Tweeter Crypto Agent
+# 🤖 Tweeter Crypto Agent
 
-Tweeter Crypto Agent is an AI-powered crypto trading bot that reacts to live Twitter sentiment. It scrapes tweets about cryptocurrencies, analyzes their sentiment in real-time, and automatically executes buy/sell trades on the Sepolia Ethereum testnet using Uniswap smart contracts.
+**Tweeter Crypto Agent** is an AI-powered trading bot that scrapes real-time tweets about cryptocurrencies, analyzes their sentiment, and executes buy or sell trades on the **Sepolia Ethereum testnet** using **Uniswap smart contracts**.
 
-Overview
+---
 
-In volatile crypto markets, public sentiment — especially on platforms like Twitter — can trigger major price swings. This project turns social chatter into actionable trading signals using:
+## 🧠 Introduction
 
+Crypto markets are fast and emotionally driven — especially by platforms like Twitter. This bot listens to crypto-related tweets, understands the sentiment (positive or negative), and automatically reacts by executing trades on-chain. It bridges **social sentiment** with **decentralized finance**, showing the future of emotion-aware, automated trading.
 
+---
 
+## ✅ Advantages
 
+- **Real-Time Trading**: Automatically reacts to live social sentiment.
+- **AI-Driven Decisions**: Uses NLP for tweet sentiment analysis.
+- **Web3 Integrated**: Executes trades on Ethereum Sepolia via Uniswap.
+- **Risk-Free Testing**: Operates on a testnet — safe and cost-free.
+- **Modular & Extensible**: Easy to extend to more tokens or mainnet use.
+- **Fully Automated**: No manual input needed after setup.
 
-Natural Language Processing (NLP) to detect sentiment (positive/negative).
+---
 
+## 🧰 Tech Stack
 
+| Functionality       | Technology              |
+|---------------------|--------------------------|
+| Backend / Bot Logic | Node.js, Express         |
+| Sentiment Analysis  | Python, NLTK / VADER      |
+| Web Scraping        | Python, Requests, Tweepy (or scraping logic) |
+| Blockchain Access   | Web3.js, Ethereum (Sepolia), Uniswap |
+| Data Handling       | JSON, CSV                |
+| Smart Contract Call | Uniswap Router ABI       |
 
-Automated trading logic to make buy/sell decisions.
+---
 
+## 📦 How to Run
 
-
-Smart contract interactions to execute trades on-chain.
-
-This demonstrates how AI and Web3 can work together to create intelligent, autonomous financial agents.
-
-
-
-Advantages
-
-
-
-
-
-🔄 Real-Time Reactions — Instant analysis and trading based on tweet data.
-
-
-
-🤖 Fully Automated — No manual input after setup.
-
-
-
-🧠 AI-Driven — Uses sentiment analysis for smart decision-making.
-
-
-
-🌐 Decentralized Execution — Trades are made through Uniswap on the Ethereum.
-
-
-
-🧩 Modular Design — Easy to extend to more tokens, better models, or mainnet.
-
-
-
-Tech Stack
-
-
-
-
-
-
-
-Component
-
-
-
-Technology Used
-
-
-
-
-
-Sentiment Analysis
-
-
-
-Python (NLTK, VADER)
-
-
-
-
-
-Twitter Scraping
-
-
-
-Python (Requests / Tweepy)
-
-
-
-
-
-Trading Bot Logic
-
-
-
-Node.js
-
-
-
-
-
-Smart Contract Access
-
-
-
-Web3.js, Uniswap Router ABI
-
-
-
-
-
-Data Storage
-
-
-
-CSV, JSON
+### 1. Clone the Repo
+```bash
+git clone https://github.com/Sushant041/tweeter_crypto_agent.git
+cd tweeter_crypto_agent
